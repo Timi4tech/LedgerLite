@@ -1,6 +1,6 @@
 // server/controllers/bookController.js
 
-const Book = require('/models/book.js');
+const Book = require('/book.js');
 
 exports.uploadBook = async (req, res) => {
   try {
