@@ -1,7 +1,7 @@
 import express from "express";
-import User from "../models/user.js";
-import Book from "../models/book.js";
-import auth from "../middleware/auth.js";
+import User from "../user.js";
+import Book from "../book.js";
+import auth from "../auth.js";
 
 const router = express.Router();
 
