@@ -1,7 +1,7 @@
 // server/routes/bookRoutes.js
 
 const express = require('express');
-const { uploadBook } = require('../controllers/bookController');
+const { uploadBook } = require('../bookController');
 
 const router = express.Router();
 
@@ -13,7 +13,7 @@ module.exports = router;
 // server/routes/bookRoutes.js
 
 const express = require('express');
-const Book = require('/models/book.js');
+const Book = require('/book.js');
 
 // ⭐ NEW: Get Featured Books
 router.get('/featured', async (req, res) => {
