@@ -1,6 +1,6 @@
 // server/controllers/chatbotController.js
 
-const Book = require('/models/book.js');
+const Book = require('/book.js');
 
 exports.handleChat = async (req, res) => {
   const { message } = req.body;
